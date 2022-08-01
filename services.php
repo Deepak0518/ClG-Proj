@@ -1,6 +1,163 @@
-<?php
-include "header.php"
-?>
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+<meta charset="utf-8">
+<title>Smaahira Consultancy | Grow For your better future.</title>
+<!-- Stylesheets -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+
+<link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+<link rel="icon" href="images/logo.png" type="image/x-icon">
+
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+</head>
+
+<body>
+
+<div class="page-wrapper">
+    <!-- Preloader -->
+    <div class="preloader"></div>
+
+    <header class="main-header header-style-one">
+        
+		<!-- Header Upper -->
+        <div class="header-upper">
+            <div class="inner-container">
+                <div class="auto-container clearfix">
+                    <!--Info-->
+                    <div class="logo-outer">
+                        <div class="logo"><a href="index.html"><img src="images/logo.png" alt="" title="" style="height:90px; width: 250px" </a></div>
+                    </div>
+
+                    <!--Nav Box-->
+                    <div class="nav-outer clearfix">
+                        <!--Mobile Navigation Toggler For Mobile--><div class="mobile-nav-toggler default-mobile-nav-toggler"><span class="icon flaticon-menu"></span></div>
+                        <nav class="main-menu navbar-expand-md navbar-light">
+                            <div class="navbar-header">
+                                <!-- Togg le Button -->
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="icon flaticon-menu"></span>
+                                </button>
+                            </div>
+                            
+                            <div class="collapse navbar-collapse clearfix" id="navbarSupportedContent">
+                                <ul class="navigation clearfix">
+                                    <li><a href="index.html">Home</a>
+                                      <!--  <ul>
+                                            <li><a href="index-2.html">Home page 01</a></li>
+                                            <li><a href="index-3.html">Home page 02</a></li>
+                                            <li><a href="index-4.html">Home page 03</a></li>
+											<li><a href="index-5.html">Home page 04</a></li>
+                                            <li><a href="index-6.html">Home page 05</a></li>
+                                            <li class="dropdown"><a href="index-2.html">Header Styles</a>
+                                                <ul>
+                                                    <li><a href="index-2.html">Header Style One</a></li>
+                                                    <li><a href="index-3.html">Header Style Two</a></li>
+                                                    <li><a href="index-4.html">Header Style Three</a></li>
+													<li><a href="index-5.html">Header Style Four</a></li>
+                                                    <li><a href="index-6.html">Header Style Five</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul> !-->
+                                    </li>
+									<li><a href="about.html">About</a>
+                                       <!-- <ul>
+                                            <li><a href="about.html">About Us</a></li>
+											<li><a href="team.html">Our Team</a></li>
+											<li><a href="faq.html">Faq's</a></li>
+											<li><a href="price.html">Pricing</a></li>
+                                        </ul> !-->
+                                    </li>
+									
+									<li><a href="expertise.html">Expertise</a>
+									<!--<li class="dropdown"><a href="case.html">Cases</a>
+                                        <ul>
+                                            <li><a href="case.html">All Cases</a></li>
+											<li><a href="case-detail.html">Case Detail</a></li>
+                                        </ul>
+                                    </li>!-->
+                                    <li><a href="services.html">Services</a>
+                                      <!--  <ul>
+											<li><a href="services.html">All Services</a></li>
+											<li><a href="services-detail.html">SEO</a></li>
+											<li><a href="services-detail.html">Speed Optimization</a></li>
+											<li><a href="services-detail.html">Social Marketing</a></li>
+											<li><a href="services-detail.html">Pay Management</a></li>
+											<li><a href="services-detail.html">Conversion Optimization</a></li>
+											<li><a href="services-detail.html">Online Marketing</a></li>
+                                        </ul>  !-->
+                                    </li>
+									<!--<li class="dropdown"><a href="blog.html">Blog</a>
+                                        <ul>
+                                            <li><a href="blog.html">Blog 03 Column</a></li>
+                                            <li><a href="blog-sidebar.html">Blog with Sidebar</a></li>
+                                            <li><a href="blog-detail.html">Blog Post Details</a></li>
+                                        </ul>
+                                    </li>!-->
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                        <!-- Main Menu End-->
+						
+						<!-- Outer Box -->
+                        <div class="outer-box clearfix">
+							
+							<!-- Main Menu End-->
+							<div class="nav-box">
+								<div class="nav-btn nav-toggler navSidebar-button clearfix">
+									<span class="icon"></span>
+									<span class="icon"></span>
+									<span class="icon"></span>
+								</div>
+							</div>
+							
+							<!-- Search Box Button -->
+                            
+							
+                        </div>
+						
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End Header Upper-->
+		
+		<!-- Mobile Menu  -->
+        <div class="mobile-menu">
+            <div class="menu-backdrop"></div>
+            <div class="close-btn"><span class="icon flaticon-cancel"></span></div>
+            
+            <nav class="menu-box">
+                <div class="nav-logo"><a href="index.html"><img src="images/logo.png" alt="" title=""></a></div>
+                <div class="menu-outer">
+					<ul class="navigation clearfix"><!--Keep This Empty / Menu will come through Javascript--></ul>
+				</div>
+				<!--Social Links-->
+				<div class="social-links">
+					<ul class="clearfix">
+						<li><a href="#"><span class="fab fa-twitter"></span></a></li>
+						<li><a href="#"><span class="fab fa-facebook-square"></span></a></li>
+						<li><a href="#"><span class="fab fa-pinterest-p"></span></a></li>
+						<li><a href="#"><span class="fab fa-instagram"></span></a></li>
+						<li><a href="#"><span class="fab fa-youtube"></span></a></li>
+					</ul>
+                </div>
+            </nav>
+        </div><!-- End Mobile Menu -->
+
+
+    </header>
+    <!-- End Main Header -->
+
 	<!--Page Title-->
     <section class="page-title">
 		<!-- Pattern Layers -->
@@ -116,10 +273,73 @@ include "header.php"
 		
 	</section>
 	
-				
-	<?php
-include "footer.php"
-?>
+	<!-- Main Footer -->
+    <footer class="main-footer">
+		<div class="auto-container">
+        	<!--Widgets Section-->
+            <div class="widgets-section">
+            	<div class="row clearfix">
+					
+					<!--Footer Column-->
+					<div class="footer-column col-lg-4 col-md-6 col-sm-12">
+						<div class="footer-widget logo-widget">
+							<div class="logo">
+								<a href="index.html"><img src="images/logo.png" alt=""  style="height:100px; margin-top:-82px"/></a>
+							</div>
+							<div class="text">Smaahira consultant is a name to reckon within consulting. Our major focus is on 100% customer service and provide consulting solutions across the globe, by maintaining work confidential, excellent mapping, quick turnaround time, Accurate assessment, wide networking across all industries.</div>
+							<ul class="social-icons">
+								<li class="facebook"><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+								<li class="twitter"><a href="#"><span class="fab fa-twitter"></span></a></li>
+								<li class="vimeo"><a href="#"><span class="fab fa-vimeo-v"></span></a></li>
+								<li class="linkedin"><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
+							</ul>
+						</div>
+					</div>
+					
+					<!--Footer Column-->
+					<div class="footer-column col-lg-3 col-md-6 col-sm-12">
+						<div class="footer-widget links-widget">
+							<h2>Quick Link</h2>
+							<div class="widget-content">
+								<ul class="list">
+									<li><a href="index.html">Home</a></li>
+									<li><a href="about.html">About us</a></li>
+									<li><a href="expertise.html">Expertise</a></li>
+									<li><a href="services.html">Services</a></li>
+									<li><a href="contact.html">Contact Us</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+					<!--Footer Column-->
+					<div class="footer-column col-lg-5 col-md-12 col-sm-12">
+						<div class="footer-widget newsletter-widget">
+							<h2>Maps</h2>
+							<div class="text"></div>
+							<!-- Newsletter Form -->
+							<div class="newsletter-form">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117331.54416086066!2d72.5755070685498!3d23.22085195075699!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c2b987c6d6809%3A0xf86f06a7873e0391!2sGandhinagar%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1599058316232!5m2!1sen!2sin" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Footer Bottom -->
+			<div class="footer-bottom">
+				<div class="clearfix">
+					<div class="pull-left">
+						<div class="copyright"> &copy; 2020 All Right Reserved</div>
+					</div>
+					
+				</div>
+			</div>
+			
+		</div>
+	</footer>
+	<!-- End Main Footer -->			
+	
 </div>  
 <!--End pagewrapper-->
 
